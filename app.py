@@ -164,7 +164,7 @@ def pagina_inicial():
     st.header("Bem-vindo !!")
     st.header("Análise de Itens Patrimoniais do SIAFERIO")
     texto_com_cor = """
-    <p>Esta aplicação analisa itens de natureza de despesa no SIAFERIO, facilitando a visualização e filtragem dinamicamente.</p>
+    <p>Esta aplicação web analisa os itens patrimoniais e as suas respectivas natureza de despesa no SIAFERIO, facilitando a visualização e filtragem da coluna IMPLICA DESPESA.</p>
     """
     st.markdown(texto_com_cor, unsafe_allow_html=True)
 
